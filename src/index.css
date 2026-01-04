@@ -4,14 +4,14 @@
 
 @theme {
   /* Palette Notion Purple */
-  --color-primary: #f3ebf9;
-  --color-primary-light: #f8f4fb;
-  --color-primary-lighter: #fdfcfe;
-  --color-primary-dark: #e6d5f2;
+  --color-primary: #9B59B6;
+  --color-primary-light: #B87DD6;
+  --color-primary-lighter: #E8D4F0;
+  --color-primary-dark: #7D3C98;
   --color-success: #0F9D58;
 
   /* Notion Colors */
-  --color-notion-purple: #f3ebf9;
+  --color-notion-purple: #9B59B6;
   --color-notion-text: #37352F;
   --color-notion-text-secondary: #6B7280;
   --color-notion-bg-light: #FFFFFF;
@@ -22,7 +22,7 @@
 
   /* Custom shadows */
   --shadow-notion: 0 1px 3px rgba(0, 0, 0, 0.1);
-  --shadow-notion-hover: 0 4px 12px rgba(243, 235, 249, 0.15);
+  --shadow-notion-hover: 0 4px 12px rgba(155, 89, 182, 0.25);
 
   /* Fonts */
   --font-sans: 'Inter', system-ui, sans-serif;
@@ -209,8 +209,8 @@
 }
 
 @keyframes pulse-purple {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(243, 235, 249, 0.4); }
-  50% { box-shadow: 0 0 0 10px rgba(243, 235, 249, 0); }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(155, 89, 182, 0.4); }
+  50% { box-shadow: 0 0 0 10px rgba(155, 89, 182, 0); }
 }
 
 @keyframes fade-in {
