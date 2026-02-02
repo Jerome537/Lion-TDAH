@@ -68,7 +68,7 @@ export function RoutineChecklist() {
         {routineSteps.map((step) => (
           <li
             key={step.id}
-            className={`flex items-center gap-3 p-3 rounded-notion transition-all duration-200 ${
+            className={`group flex items-center gap-3 p-3 rounded-notion transition-all duration-200 ${
               step.completed
                 ? 'bg-green-50 dark:bg-green-900/20'
                 : 'bg-gray-50 dark:bg-gray-700/50 hover:bg-primary-lighter/30 dark:hover:bg-primary/10'
