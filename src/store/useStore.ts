@@ -36,7 +36,7 @@ export const useStore = create<AppState & AppActions>()(
       ...initialState,
 
       // Priority actions
-      setPriority: (priority) => set({ priority }),
+      setPriority: (priority) => set({ priority, priorityCompleted: false }),
 
       completePriority: () => {
         set({ priorityCompleted: true });
